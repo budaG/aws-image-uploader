@@ -32,9 +32,9 @@ For local endpoints, running on port:8080\
 
 In the React project directory under `src/main/frontend`, you can run:
 
-#### `npm -i react-script`
+#### `npm install`
 
-This will install the react-script package needed to run the React app script.
+This will install the react-script package along with other packages needed to run the React app script.
 
 ### `npm start`
 
