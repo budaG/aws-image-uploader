@@ -1,0 +1,24 @@
+spring:
+  application:
+    name: aws-image-uploader
+  servlet:
+    multipart:
+      max-file-size: 50MB
+
+  datasource:
+    url: jdbc:postgresql://localhost:5432/awsimageurldb
+    username: aws.upload.service
+    password: development
+
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
+    properties:
+      hibernate:
+        dialect: org.hibernate.dialect.PostgreSQL10Dialect
+        format_sql: true
+
+server:
+  port: 8080
+
